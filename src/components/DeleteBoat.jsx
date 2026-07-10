@@ -1,8 +1,10 @@
 import React from 'react'
+import NavigationBar from './NavigationBar'
 
 const DeleteBoat = () => {
   return (
     <div>
+        <NavigationBar/>
 
 <div className="container">
     <div className="row">
