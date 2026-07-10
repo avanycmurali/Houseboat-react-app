@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import AddBoat from './components/AddBoat'
 import SearchBoat from './components/SearchBoat'
+import DeleteBoat from './components/DeleteBoat'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
     <AddBoat/>
     <SearchBoat/>
+    <DeleteBoat/>
       
     </>
   )
